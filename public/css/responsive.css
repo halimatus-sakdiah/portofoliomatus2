@@ -1,0 +1,335 @@
+@media only screen and (max-width: 417px){
+    /* bagian home */
+    .section p.name2{
+        font-size: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 393px) and (min-width: 286px){
+    /* bagian home */
+    .tombolpost{
+        margin-left: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 293px){
+    .title{
+        font-size: 20px;
+    }
+    #about .group img {
+        height: 130px;
+        width: 130px;
+    }
+    .container img{
+        height: 130px;
+        width: 130px;
+    }
+
+    /* bagian contac */
+    .contact{
+        font-size: 20px;
+    }
+
+    /* bagian navbar foto */
+    .container .navbar-brand img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .hr{
+        margin-top: 60px;
+    }
+
+    /* bagian blog */
+    nav ul li a{
+        font-size: 13px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 240px){
+    nav ul li a{
+        font-size: 8px;
+    }
+}
+
+
+
+@media only screen and (max-width: 375px) and (min-width: 250px){
+
+    .engineer h3{
+        text-align: center;
+        margin-top: -30px;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width: 576px){
+
+    /* bagian home*/
+    .name p.name2{
+        font-size: 40px;
+    }
+
+    /* bagian about */
+
+    #about .img img{
+        width: 100px;
+        height: 100px;
+    } 
+
+
+    p .paragraph{
+        margin-top: 200px;
+    }
+    
+    .text3{
+        margin-top: 3px;
+        margin-left: -260px;
+    }
+
+    .icon{
+        margin-left: -50px;
+        margin-top: -600;
+    }
+
+    .boxbutton{
+        margin-top: 210px;
+    }
+}
+
+@media only screen and (max-width: 576px)  and (min-width: 73px){
+    /* bagian home */
+    .boxbutton{
+        margin-bottom: 200px;
+    }
+}
+
+@media only screen and (max-width: 768px)  and (min-width: 388px){
+    .section .img img{
+        width: 0px;
+        height: 0px;
+        margin-top: 200px;
+        margin-left: -2px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 992px){
+    .section .img img{
+        width: 400px;
+        height: 500px;
+        margin-top: 120px;
+        margin-left: -2px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 765px) and (min-width: 578px){
+
+    .engineer .p2{
+        margin-top: 100%;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    /* bagian about */
+
+    #about{
+        text-align: center;
+        color: black;
+    }
+
+    .group img{
+        width: 250px;
+        height: 250px;
+    }
+    .isi{
+        margin-top: 80px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .engineer h3{
+        text-align: center;
+        margin-top: -30px;
+    }
+
+    .hr{
+        margin-top: 250px;
+    }
+
+    .container .judul{
+        margin-top: 2px;
+    }
+
+    .container .col .skil{
+        margin-top: 2px;
+    }
+
+    .container .row .col .judul .vertical-line{
+        height: 400%px;
+    }
+
+    .skil{
+        margin-top: 100px;
+    }
+
+    /* BAGIAN EXPERIENCE */
+    .experiences{
+        color: black;
+    }
+
+
+
+    /* BAGIAN BLOG */
+
+    .blog .title{
+        color: black;
+    }
+
+     li a{
+        color: rgb(233, 224, 224);
+    }
+
+    li a:hover{
+        color: rgb(50, 50, 49);
+    }
+    .project{
+        color: white;
+        float: left;
+    }
+
+    .image{
+        color: white;
+        float: left;
+    }
+
+    .vidio{
+        color: white;
+        float: left;
+    }
+
+   
+    .container-fluid{
+        text-align: center;
+    }
+
+    #contact{
+        color: black;
+    }
+    
+    /* BAGIAN CONTACT */
+
+    footer{
+        height: 490px;
+    }
+
+    .social{
+        margin-top: 80px;
+        margin-left: 3px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+
+    .engineer h3{
+        text-align: center;
+    }
+
+    .engineer .p2{
+        margin-top: 30%;
+        text-align: center;
+    }
+    
+    .hr{
+        margin-top: 150px;
+    }
+
+    .gambar2 img{
+        margin-top: -150px;
+        margin-left: -310px;
+        padding: 30px 0px 80px 0px;
+    }
+
+    .container .judul .vertical-line{
+        height: 100%px;
+    }
+
+    .container .judul{
+        margin-top: 100px;
+    }
+
+    .container .col .skil{
+        margin-top: 100px;
+    }
+
+
+
+    /* BAGian foto hOMe */
+
+        .section .img img{
+            width: 300px;
+            height: 400px;
+            margin-top: -35%;
+            margin-left: -1%;
+        } 
+
+        .paragraph{
+            margin-left: 60%;
+        }
+
+        .name p.name2{
+            font-size: 40px;
+        }
+
+        
+
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 576px){
+    .textright .text3{
+        margin-top: 10px;
+        margin-left: -380px;
+    }
+
+    .section .img img{
+        width: 0px;
+        height: 0px;
+        margin-top: -45%;
+        
+    } 
+
+    p .paragraph{
+        margin-left: -400px;
+    }
+}
+
+
+
+
+
+

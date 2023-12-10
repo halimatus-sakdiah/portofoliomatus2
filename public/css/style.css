@@ -1,0 +1,289 @@
+body{
+       background-color: rgb(84, 84, 84); 
+}
+
+/* bagian home */
+.name{
+    margin-top: 110px;
+}
+.name1{
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 35px;
+    color: rgb(63, 64, 65);
+}
+.name2{
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 55px;
+    color: white;
+}
+.paragraph{
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+}
+.img img{
+    height: 500px;
+    width: 330px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -340px;
+    z-index: 2;
+}
+.boxbutton{
+    margin-top: 55px;
+    padding: 20px;
+    background-color: rgb(138, 138, 138);
+    position: relative;
+    box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+.box1{
+    padding: 10px;
+    background-color: rgb(107, 107, 107);
+}
+.textright{
+    margin-left: 75%;
+}
+.service{
+    font-size: 20px;
+}
+.text3{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -430px;
+    color: rgb(251, 255, 255);
+}
+
+
+
+
+
+/* bagian about */
+
+#about{
+    color: white;
+}
+.isi{
+    margin-left: 40%; 
+    margin-top: -250px;
+    font-size: 20px;
+}
+.isi p{
+    font-size: 18px;
+    color: white;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {color: white;}
+    to {color: black;}
+  }
+.title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.engineer h3{
+    text-align: center;
+}
+.engineering p{
+    margin-left: 30px;
+}
+.product p{
+    margin-left: 30px;
+}
+.container{
+    font-size: 17px;
+}
+.judul{
+    font-size: 25px;
+    font-weight: bold;
+}
+.vertical-line {
+      border-left: 1px solid #000; /* Warna dan ketebalan garis dapat disesuaikan */
+      height: 400px;
+      margin-left: 102%;
+      margin-top: -400px;
+}
+.skil{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+/* bagian blog */
+nav{
+    position: fixed;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+}
+li{
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+li a:hover{
+   color: black;
+}
+
+.blog .title{
+    color: white;
+}
+.project{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.vidio{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* bagian post/isi blog */
+.tombolpost{
+    margin-left: 44%;
+}
+.overview{
+        color: white;
+        padding: 10px 100px 0 60px ;
+}
+.tools{
+    margin-top: 70px;
+    color: white;
+    padding: 10px 100px 0 60px ;
+}
+
+
+
+
+
+/* bagian experience */
+.vertical-linee {
+    border-left: 2px solid #000; /* Warna dan ketebalan garis dapat disesuaikan */
+    height: 550px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.experiences{
+    color: white;
+}
+.experience{
+    font-weight: bold;
+    font-size: 40px;
+}
+.education{
+    margin-left: 6px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -600px;
+}
+.educationtext{
+    margin-left: 50px;
+}
+.vertical-lineee {
+    border-left: 2px solid #000; /* Warna dan ketebalan garis dapat disesuaikan */
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.apprenticeship{
+    margin-left: 6px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -190px;
+}
+.apprenticeshiptext{
+    margin-left: 50px;
+}
+.sertivicate h4{
+    margin-left: 6px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+/* bagian footer */
+footer{
+    width: 100%;
+    height: 300px;
+    padding: 40px;
+    padding-top: 70px;
+}
+.namajudul{
+    font-weight: bold;
+
+}
+.p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+.social{
+    margin-left: 87%;
+    margin-top: -120px;
+}
+.socialtext{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+/* bagian contact */
+#contact{
+    color: white;
+}
+.contact{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+
+
+
+/* bagian post2 */
+.post2{
+    color: white;
+}
+.tipslearnenglishish{
+    color: white;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    font-weight: bold;
+}
+  @keyframes example {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    50%  {color:blue; left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
+  }
+  
