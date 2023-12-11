@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-secondary" data-bs-theme='dark float-end'>
   <div class="container">
-    <a class="navbar-brand" href="/home">
+    <a class="navbar-brand" href="/">
       <img src="/img/photo.png" alt="Logo" width="40" height="40" >
       Halimatus
     </a>
