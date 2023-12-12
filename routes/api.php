@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\apii\CrudController;
+use App\Http\Controllers\api\CrudsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 /*
@@ -19,5 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 // bagian API
-Route::apiResource('crud', CrudController::class);
-
+Route::apiResource('cruds', CrudsController::class);

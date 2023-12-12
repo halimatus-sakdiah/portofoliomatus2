@@ -18,7 +18,7 @@ return new class extends Migration
             $table->enum('gender', ['M', 'F']);
             $table->string('address', 100);
             $table->char('phone', 20);
-            $table->string('emailaddres', 100);
+            $table->string('emailaddress', 100);
             $table->timestamps();
         });
     }

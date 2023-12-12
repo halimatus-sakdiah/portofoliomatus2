@@ -5,7 +5,7 @@ namespace App\Http\Resources;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class CrudResource extends JsonResource
+class CrudsResource extends JsonResource
 {
     public $status;
     public $msg;
@@ -15,12 +15,13 @@ class CrudResource extends JsonResource
      * @return array<string, mixed>
      */
 
-    public function __construct($status, $msg, $resource){
+
+     public function __construct($status,$msg,$resource){
         parent::__construct($resource);
         $this->status = $status;
         $this->msg = $msg;
-    }
-
+     }
+    
     public function toArray(Request $request): array
     {
         return [
