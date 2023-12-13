@@ -58,6 +58,8 @@ Route::get('/post2', [Post2Controller::class,'project2'])->name('post2');
 Route::get('/post3', [Post3Controller::class,'project3'])->name('post3');
 Route::get('/post4', [Post4Controller::class,'project4'])->name('post4');
 
+Route::get('/home', [Post4Controller::class,'gofirst'])->name('home');
+
 
 
 
