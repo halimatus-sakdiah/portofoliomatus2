@@ -7,6 +7,7 @@ use App\http\Controllers\Post2Controller;
 use App\http\Controllers\Post3Controller;
 
 use App\http\Controllers\Post4Controller;
+use App\http\Controllers\HomegoController;
 
 /*
 |--------------------------------------------------------------------------
