@@ -3,7 +3,10 @@
 @section('container')
 
 <div class="blog">
-    <div class="title">
+    <div class="title" data-aos="fade-right"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500">
       Blog
     </div><br><br>
 
@@ -27,7 +30,9 @@
             <br><br><br>
     <div class="container-fluid">
         <div class="row text-center">
-          <div class="col-md-4 col-md-6 col-lg-4 py-4">
+          <div class="col-md-4 col-md-6 col-lg-4 py-4" data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
             <div class="card" style="width: 18rem;">
               <img src="/img/project1.png" class="card-img-top" alt="...">
                 <div class="card-body bg-dark-subtle">
@@ -46,7 +51,9 @@
           </div>
 
 
-          <div class="col-md-4 col-md-6 col-lg-4 py-4">
+          <div class="col-md-4 col-md-6 col-lg-4 py-4" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
             <div class="card" style="width: 18rem;">
                 <img src="/img/project2.png" class="card-img-top" alt="...">
                   <div class="card-body bg-danger-subtle">
@@ -65,7 +72,9 @@
           </div>
 
 
-          <div class="col-md-4 col-md-6 col-lg-4 py-4">
+          <div class="col-md-4 col-md-6 col-lg-4 py-4" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
             <div class="card" style="width: 18rem;">
                   <img src="/img/project4.png" class="card-img-top" alt="...">
                     <div class="card-body bg-success-subtle">
@@ -115,7 +124,8 @@
         <br><br><br>
     <div class="container-fluid">
         <div class="row text-center">
-          <div class="col-md-4 col-md-6 col-lg-4 py-4">
+          <div class="col-md-4 col-md-6 col-lg-4 py-4" data-aos="fade-up-right" data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
             <div class="card" style="width: 18rem;">
               <img src="/img/2.png" class="card-img-top" alt="...">
                 <div class="card-body bg-dark-subtle">
@@ -127,7 +137,8 @@
           </div>
           
 
-          <div class="col-md-4 col-md-6 col-lg-4 py-4">
+          <div class="col-md-4 col-md-6 col-lg-4 py-4" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
             <div class="card" style="width: 18rem;">
                 <img src="/img/22.png" class="card-img-top" alt="...">
                   <div class="card-body bg-danger-subtle">
@@ -139,7 +150,8 @@
           </div>
 
 
-          <div class="col-md-4 col-md-6 col-lg-4 py-4">
+          <div class="col-md-4 col-md-6 col-lg-4 py-4" data-aos="fade-up-left" data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
             <div class="card" style="width: 18rem;">
                   <img src="/img/23.png" class="card-img-top" alt="...">
                     <div class="card-body bg-success-subtle">
@@ -168,7 +180,8 @@
         <br><br><br>
     <div class="container">
         <div class="row text-center">
-          <div class="col-md-4 col-md-6 col-lg-4 col-xs-12 py-4">
+          <div class="col-md-4 col-md-6 col-lg-4 col-xs-12 py-4" data-aos="fade-down-right" data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
             <div class="card" style="width: 18rem;">
                     <video controls>
                         <source src="/vidio/PART1_CRUD.mp4" type="video/mp4">
@@ -183,7 +196,8 @@
           
 
           <br><br>
-          <div class="col-md-4 col-md-6 col-lg-4 py-4">
+          <div class="col-md-4 col-md-6 col-lg-4 py-4" data-aos="flip-down" data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
             <div class="card" style="width: 18rem;">
                     <video controls>
                          <source src="/vidio/PART2_CRUD.mp4" type="video/mp4">
@@ -199,7 +213,8 @@
           <br><br>
 
 
-          <div class="col-md-4 col-md-6 col-lg-4 py-4">
+          <div class="col-md-4 col-md-6 col-lg-4 py-4" data-aos="fade-down-left" data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
             <div class="card" style="width: 18rem;">
                     <video controls>
                          <source src="/vidio/PART3_CRUD.mp4" type="video/mp4">

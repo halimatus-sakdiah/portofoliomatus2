@@ -22,10 +22,17 @@
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" autofocus required>
                 </div>
                 <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3" autofocus required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                {{-- <button type="submit" class="btn btn-primary">Submit</button> --}}
+
+                <input id="string" type="string" min="30" placeholder="tipe send" required>
+            
+                <button onclick="myFunction()">Send</button>
+
+                <p id="demo"></p>
+
             </form>
             </div>
             </div>

@@ -5,7 +5,10 @@
 
 <div class="experiences">
 
-<div class="experience">
+<div class="experience" data-aos="fade-right"
+data-aos-anchor="#example-anchor"
+data-aos-offset="500"
+data-aos-duration="500">
         Experience
 </div>
 <br>
@@ -64,7 +67,9 @@
     <br><br><br>
     <div class="container">
   <div class="row text-center">
-    <div class="col-lg-4">
+    <div class="col-lg-4" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
             <div class="card" style="width: 18rem;">
                 <embed src="/img/HalimatusSakdiah.pdf" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -74,7 +79,9 @@
     </div>
 
  
-    <div class="col-lg-4" style="margin-top: 5px">
+    <div class="col-lg-4" style="margin-top: 5px" data-aos="flip-right"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="3000">
         <div class="card" style="width: 18rem;">
             <embed src="/img/HalimatusSakdiah1.pdf" class="card-img-top" alt="...">
                 <div class="card-body">

@@ -5,8 +5,12 @@
 <section id="about">
    
         <div class="group">
-        <div class="title"> About Me </div> <br> <br>
-        <img src="/img/profilem.png" alt="provilem" width="300" height="300" >
+        <div class="title" data-aos="fade-right"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500"> About Me </div> <br> <br>
+        <img src="/img/profilem.png" alt="provilem" width="300" height="300" data-aos="zoom-in-right"
+        data-aos-duration="2000">
 
         <div class="isi">
             <p>My name is Halimaus sakdiah, i'm a student at vocational high school 2 bangkalan, I majored in software engineering <br> here I develop a Web that focuses on Frontend and backend building Frontend as well as back end with Websites and Web Applications</p>
@@ -28,7 +32,7 @@
                 <p >As an engineer, I have a high dedication to technology and innovation.  I have an  educational background and experience in software development, as well as  expertise in  solving technical challenges. My programming skills include various languages ​​like laravel, JavaScript, etc.</p>
             </div>
             <div class="col-md-4 py-7">
-            <img src="/img/engineering.png" alt="provilem" width="250" height="250" >
+            <img src="/img/engineering.png" alt="provilem" width="250" height="250" data-aos="zoom-in-left" data-aos-duration="2000">
             </div>
         </div>
 
