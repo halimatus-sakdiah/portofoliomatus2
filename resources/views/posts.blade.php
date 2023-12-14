@@ -2,6 +2,9 @@
 
 @section('container')
 
+<br>
+<br>
+<br>
 <div class="blog">
     <div class="title" data-aos="fade-right"
     data-aos-anchor="#example-anchor"

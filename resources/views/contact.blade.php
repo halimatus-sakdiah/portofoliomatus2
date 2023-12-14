@@ -2,6 +2,9 @@
 
 @section('container')
 
+<br>
+<br>
+<br>
 <section id="contact">
 <div class="contact">
             Contact Me
